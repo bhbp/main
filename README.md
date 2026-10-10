@@ -27,4 +27,6 @@ Static site for GitHub Pages. No build step.
 3. Settings → Pages → Source: "Deploy from a branch", branch `main`, folder `/ (root)`.
 4. Optional custom domain: add a `CNAME` file containing your domain.
 
-Dropped images (project shots, brand logos) live inside `.image-slots.state.json`. Re-export it after adding new images.
+Images: dropped images are exported as real files in `assets/slots/` and referenced directly from `index.html`. Icons are bundled locally in `icons/` (no CDN needed).
+
+Keep `.nojekyll` in the repo root so GitHub serves every file as-is.

@@ -10,7 +10,7 @@ const __ds_scope = {};
 
 // components/brand/Icon.jsx
 try { (() => {
-const BASE = "https://unpkg.com/lucide-static@0.460.0/icons/";
+const BASE = (function(){ try { var s = document.currentScript && document.currentScript.src; return s ? new URL("../icons/", s).href : "icons/"; } catch (e) { return "icons/"; } })();
 function Icon({
   name,
   size = 20,
