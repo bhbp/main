@@ -1,0 +1,11 @@
+:root{
+--font-display:"Sora",ui-sans-serif,system-ui,sans-serif;
+--font-body:"Source Serif 4",Georgia,"Times New Roman",serif;
+--font-ui:"Sora",ui-sans-serif,system-ui,sans-serif;
+--font-mono:"JetBrains Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+--weight-regular:400;--weight-medium:500;--weight-semibold:600;--weight-bold:700;--weight-black:800;
+--text-display-xl:72px;--text-display-lg:56px;--text-h1:44px;--text-h2:34px;--text-h3:26px;--text-h4:20px;
+--text-body-lg:18px;--text-body:16px;--text-body-sm:14px;--text-caption:12px;--text-eyebrow:12px;
+--leading-tight:1.04;--leading-snug:1.18;--leading-heading:1.25;--leading-body:1.6;--leading-compact:1.45;
+--tracking-display:-0.035em;--tracking-heading:-0.02em;--tracking-body:0;--tracking-eyebrow:0.16em;
+}

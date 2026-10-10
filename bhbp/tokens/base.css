@@ -1,0 +1,9 @@
+*,*::before,*::after{box-sizing:border-box}
+body{margin:0;font-family:var(--font-body);font-size:var(--text-body);line-height:var(--leading-body);font-weight:400;color:var(--text-body);background:var(--surface-page);-webkit-font-smoothing:antialiased}
+h1,h2,h3,h4{font-family:var(--font-display);color:var(--text-strong);letter-spacing:var(--tracking-heading);line-height:var(--leading-heading);margin:0;text-wrap:balance}
+p{text-wrap:pretty}
+a{color:var(--text-link);text-decoration:none;transition:color var(--duration-base) var(--ease-standard)}
+a:hover{color:var(--text-link-hover)}
+::selection{background:var(--blush-200);color:var(--ocean-900)}
+button,input,select,textarea,label{font-family:var(--font-ui)}
+:focus-visible{outline:none;box-shadow:var(--focus-ring)}

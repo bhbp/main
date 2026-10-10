@@ -1,0 +1,35 @@
+:root{
+/* Ocean — brand navy/blue (logo stroke #003E7D = 700) */
+--ocean-50:#EEF5FC;--ocean-100:#D6E7F7;--ocean-200:#ADCDEE;--ocean-300:#7AAEE1;--ocean-400:#3F88CC;--ocean-500:#1767B3;--ocean-600:#0A5299;--ocean-700:#003E7D;--ocean-800:#002E5E;--ocean-900:#001F40;--ocean-950:#00142B;
+/* Lagoon — brand teal (logo fill #2A98B4 = 500) */
+--lagoon-50:#EAF8FB;--lagoon-100:#CDEEF5;--lagoon-200:#9EDCEA;--lagoon-300:#65C3DA;--lagoon-400:#3FADC7;--lagoon-500:#2A98B4;--lagoon-600:#1F7C95;--lagoon-700:#186276;--lagoon-800:#134B5B;--lagoon-900:#0E3542;
+/* Fern — brand green */
+--fern-50:#E9FBF3;--fern-100:#C8F4E0;--fern-200:#93E8C4;--fern-300:#5CD7A5;--fern-400:#2FC68C;--fern-500:#16B07A;--fern-600:#0E9064;--fern-700:#0B7050;--fern-800:#08523B;--fern-900:#053727;
+/* Blush — soft pink tertiary (warmth, highlights) */
+--blush-50:#FFF5F7;--blush-100:#FDE7ED;--blush-200:#FACFDB;--blush-300:#F5B0C3;--blush-400:#EE8FA9;--blush-500:#DE6E8E;--blush-600:#BF5172;--blush-700:#963B57;
+/* Ink — cool neutrals */
+--ink-0:#FFFFFF;--ink-50:#F5F8FA;--ink-100:#EAF0F4;--ink-200:#D6E0E7;--ink-300:#B5C3CE;--ink-400:#8A9BA9;--ink-500:#64778A;--ink-600:#475A6C;--ink-700:#2F4152;--ink-800:#1B2A39;--ink-900:#0E1A26;--ink-950:#07111B;
+/* Signal */
+--amber-100:#FDEFD9;--amber-500:#F2A33A;--amber-700:#A8620B;
+--coral-100:#FCE3E4;--coral-500:#E5484D;--coral-700:#A82328;
+
+/* Semantic — brand */
+--brand-primary:var(--ocean-700);--brand-secondary:var(--lagoon-500);--brand-accent:var(--fern-400);--brand-tertiary:var(--blush-300);
+/* Semantic — surfaces */
+--surface-page:var(--ink-50);--surface-card:var(--ink-0);--surface-raised:var(--ink-0);--surface-sunken:var(--ink-100);--surface-tint:var(--lagoon-50);--surface-blush:var(--blush-50);--surface-inverse:var(--ocean-950);--surface-inverse-raised:#0A2340;--surface-overlay:rgba(0,20,43,.55);
+/* Semantic — text */
+--text-strong:var(--ink-900);--text-body:var(--ink-700);--text-muted:var(--ink-500);--text-subtle:var(--ink-400);--text-inverse:#FFFFFF;--text-inverse-muted:#A9BED3;--text-link:var(--ocean-600);--text-link-hover:var(--ocean-800);--text-accent:var(--lagoon-700);--text-on-brand:#FFFFFF;
+/* Semantic — borders */
+--border-subtle:var(--ink-200);--border-strong:var(--ink-300);--border-inverse:rgba(255,255,255,.14);--border-focus:var(--lagoon-500);
+/* Semantic — actions */
+--action-primary-bg:var(--ocean-700);--action-primary-bg-hover:var(--ocean-800);--action-primary-bg-press:var(--ocean-900);
+--action-accent-bg:var(--fern-400);--action-accent-bg-hover:var(--fern-500);
+--action-secondary-bg-hover:var(--lagoon-50);
+--action-ghost-bg-hover:rgba(0,62,125,.06);--action-ghost-bg-press:rgba(0,62,125,.1);
+--action-disabled-bg:var(--ink-100);--action-disabled-fg:var(--ink-400);
+/* Semantic — status */
+--status-success:var(--fern-600);--status-success-bg:var(--fern-50);
+--status-info:var(--lagoon-600);--status-info-bg:var(--lagoon-50);
+--status-warning:var(--amber-700);--status-warning-bg:var(--amber-100);
+--status-danger:var(--coral-500);--status-danger-bg:var(--coral-100);
+}
