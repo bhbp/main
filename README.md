@@ -29,4 +29,4 @@ Static site for GitHub Pages. No build step.
 
 Images: dropped images are exported as real files in `assets/slots/` and referenced directly from `index.html`. Icons are bundled locally in `icons/` (no CDN needed).
 
-Keep `.nojekyll` in the repo root so GitHub serves every file as-is.
+No files start with "_" or ".", so the site works even if GitHub runs Jekyll. `.nojekyll` is still included as a safeguard.
